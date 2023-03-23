@@ -30,11 +30,11 @@ const Navbar = () => {
 
   const toggleMobileMenu = useCallback(() => {
     setShowMobileMenu((current) => !current);
-  }, [showMobileMenu]);
+  }, []);
 
   const toggleAccountMenu = useCallback(() => {
     setAccountMobileMenu((current) => !current);
-  }, [showAccountMenu]);
+  }, []);
 
   return (
     <nav className="w-full fixed z-40">
